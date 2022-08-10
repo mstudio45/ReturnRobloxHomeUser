@@ -1,0 +1,44 @@
+{
+	"name": "Return Roblox Home User",
+	"action": {},
+	"manifest_version": 3,
+	"version": "1.0",
+	"description": "Want your avatar and username back on the Roblox's home page? This extension is for you! Just add it to your Chrome browser and you are done.",
+  
+	"icons": {
+		"16": "icon/16.png",
+		"32": "icon/32.png",
+		"48": "icon/48.png",
+		"128": "icon/128.png",
+		"256": "icon/256.png"
+	},
+  
+	"permissions": [
+		"storage", "declarativeContent", "activeTab", "scripting"
+	],
+  
+	"background": {
+		"service_worker": "background.js"
+	},
+  
+    "host_permissions": [
+		"*://*.roblox.com/",
+		"*://*.rbxcdn.com/"
+	],
+	
+	"web_accessible_resources": [
+		{
+			"resources": ["/res/*", "/css/*"],
+			"matches": ["*://*.roblox.com/*"]
+		}
+	],
+	
+	"content_scripts": [
+		{
+			"matches": ["*://www.roblox.com/home", "*://web.roblox.com/home"],
+			"js": ["homeUser.js"],
+			"run_at": "document_start",
+			"all_frames": true
+		}
+	]
+}
