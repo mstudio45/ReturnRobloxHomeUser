@@ -11,4 +11,4 @@ Created by mstudio45!<br>
 5. In the top left corner click on 'Load unzipped'.<br>
 6. Find the unzipped folder, select click and then click Select Folder.<br>
 7. Now you are done!<br><br>
-![This is how it should look after following these steps](https://raw.githubusercontent.com/mstudio45/ReturnRobloxHomeUser/main/images/5EjwD0UJ_.png)
+![This is how it should look after following these steps]()
