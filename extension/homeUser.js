@@ -79,7 +79,7 @@ function loadUserHome() {
 		homeElement.innerHTML += homeUser
     }, 2000)
 	
-	// version check:
+	/* version check:
 	try	{
         let currentVersion = chrome.runtime.getManifest().version
 		fetch("https://raw.githubusercontent.com/mstudio45/ReturnRobloxHomeUser/source/version").then((response) => response.text()).then((latestVersion) => {  
@@ -100,7 +100,7 @@ function loadUserHome() {
         console.log("----------------------- Return Roblox Home User -----------------------\n")
 		console.log("Can't check extension version.")
 		console.log("----------------------- Return Roblox Home User -----------------------\n")
-    }
+    }*/
 }
 function catchLoadUserHome(error) {
     try {
