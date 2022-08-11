@@ -37,7 +37,7 @@
 		{
 			"matches": ["*://www.roblox.com/home", "*://web.roblox.com/home"],
 			"js": ["homeUser.js"],
-			"run_at": "document_start",
+			"run_at": "document_end",
 			"all_frames": true
 		}
 	]
