@@ -4,7 +4,7 @@ Created by mstudio45!<br>
 ![Example](https://raw.githubusercontent.com/mstudio45/ReturnRobloxHomeUser/main/images/5Ejs7_4y1.png)
 
 # How To Download
-## If you are updating the version click [here](https://github.com/mstudio45/ReturnRobloxHomeUser#how-to-update)-
+### If you are updating the version click [here](https://github.com/mstudio45/ReturnRobloxHomeUser#how-to-update).
 1. [Download](https://downgit.github.io/#/home?url=https://github.com/mstudio45/ReturnRobloxHomeUser/tree/source/extension) the extension.<br>
 2. Extract the zip you downloaded.<br>
 3. Open chrome and open this link: chrome://extensions/<br>
